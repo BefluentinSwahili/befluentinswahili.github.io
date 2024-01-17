@@ -11615,14 +11615,17 @@ a:hover {
 }
 .hero-section {
     position: relative;
-    background: url("../images/1.jpg") no-repeat center center;
+    background: url("../images/hero.jpg") no-repeat center center;
     background-size: cover;
-    min-height: 400px;
+    min-height: 600px;
     color: #fff;
 }
 .hero-section .container {
     position: relative;
     z-index: 10;
+}
+.hero-section .text-container {
+    margin-top: 7rem;
 }
 .hero-heading-upper {
     font-size: 1.375rem;
@@ -11805,13 +11808,11 @@ a:hover {
 }
 .module-accordion .module-intro {
     font-size: 1rem;
+    border-bottom: 1px solid #efefef;
 }
 .module-accordion .module-sub-item {
     font-size: 1rem;
     border-bottom: 1px solid #efefef;
-}
-.module-accordion .module-sub-item:nth-child(2) {
-    border: none;
 }
 .module-accordion .module-sub-item:last-child {
     border: none;
@@ -11833,11 +11834,11 @@ a:hover {
     height: 100%;
     left: 0;
     top: 0;
-    background: #8b37ff url("../images/3.jpg") no-repeat center center;
+    /*background: #8ae234 url("../images/profile-bg.jpg") no-repeat center center;
     background-size: cover;
     -webkit-opacity: 0.08;
     -moz-opacity: 0.08;
-    opacity: 0.08;
+    opacity: 0.08;*/
 }
 .faq-items .item {
     margin-bottom: 2rem;
@@ -11894,7 +11895,7 @@ a:hover {
     bottom: 2rem;
     left: 0;
 }
-.review-item {
+.content-item {
     border: 1px solid #efefef;
     position: relative;
     height: 100%;
@@ -11952,7 +11953,7 @@ a:hover {
     height: 100%;
     left: 0;
     top: 0;
-    background: #8b37ff url("../images/2.jpg") no-repeat center center;
+    background: #8b37ff url("../images/footer-bg.jpg") no-repeat center center;
     background-size: cover;
     -webkit-opacity: 0.08;
     -moz-opacity: 0.08;
