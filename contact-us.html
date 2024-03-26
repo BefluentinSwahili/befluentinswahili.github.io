@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="has-navbar-fixed-top">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- SEO Meta Tags -->
+		<meta name="description" content="Your description">
+		<meta name="author" content="Befluent Swahili">
+		<!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+		<meta property="og:site_name" content="Befluent Swahili" /> <!-- website name -->
+		<meta property="og:site" content="https://www.befluentswahili.com" /> <!-- website link -->
+		<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+		<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+		<meta property="og:image" content="https://www.befluentswahili.com/assets/img/og-image.jpg" /> <!-- image link, make sure it's jpg -->
+		<meta property="og:url" content="https://www.befluentswahili.com" /> <!-- where do you want your post to link to -->
+		<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+		<title>Befluent Swahili</title> <!-- Webpage Title -->
+		<link href="assets/css/bulma.min.css" rel="stylesheet">
+		<link href="assets/css/fontawesome-all.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<!-- Favicon  -->
+		<link rel="icon" href="favicon.svg">
+	</head>
+	<body>
+		<nav class="navbar is-spaced has-shadow is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+			<div class="container">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="index.html">
+						<img src="assets/img/logo.svg" alt="logo">
+					</a>
+
+					<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="siteMenu">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+				<div id="siteMenu" class="navbar-menu">
+					<div class="navbar-start">
+
+					</div>
+					<div class="navbar-end">
+						<a class="navbar-item" href="about-us.html">
+							About Us
+						</a>
+						<div class="navbar-item has-dropdown is-hoverable">
+							<a class="navbar-link" href="#">
+								Swahili Courses
+							</a>
+
+							<div class="navbar-dropdown is-boxed">
+								<a class="navbar-item" href="foundations-of-swahili.html">
+									Foundations of Swahili
+								</a>
+								<a class="navbar-item" href="practical-conversations.html">
+									Practical Conversations
+								</a>
+								<a class="navbar-item" href="cultural-insights.html">
+									Cultural Insights
+								</a>
+								<a class="navbar-item" href="advanced-vocabulary.html">
+									Advanced Vocabulary
+								</a>
+								<a class="navbar-item" href="fluency-exercises.html">
+									Fluency Excercises
+								</a>
+								<a class="navbar-item" href="real-world-scenarios.html">
+									Real-world Scenarios
+								</a>
+							</div>
+						</div>
+						<a class="navbar-item" href="our-pricing.html">
+							Pricing
+						</a>
+						<a class="navbar-item" href="contact-us.html">
+							Contact Us
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Main Content Start -->
+		<section class="section is-medium has-background-primary">
+			<div class="container">
+				<div class="content">
+					<h1 class="title is-1 has-text-white">Contact Us</h1>
+				</div>
+			</div>
+		</section>
+		<section class="section is-medium">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<div class="content">
+							<h2 class="title is-2">Information</h2>
+							<p>Feel free to reach out to us with any questions, inquiries, or feedback you may have. Our team is here to assist you every step of the way on your language learning journey.</p>
+							<div class="block">
+								<div class="icon-text">
+									<span class="icon has-text-primary">
+										<i class="fas fa-envelope"></i>
+									</span>
+									<a href="mailto:habari@befluentswahili.com">habari@befluentswahili.com</a>
+								</div>
+							</div>
+							<div class="block">
+								<div class="icon-text">
+									<div class="icon has-text-primary">
+										<i class="fas fa-phone"></i>
+									</div>
+									<a href="tel:+254704573338">+254 704 573338</a>
+								</div>			
+							</div>
+							<div class="block">
+								<div class="icon-text">
+									<span class="icon has-text-primary">
+										<i class="fas fa-map-marker-alt"></i>
+									</span>
+									<p>Nairobi, KENYA (GMT +3)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-7 is-offset-1">
+						<div class="box">
+							<h3 class="title is-3">Send a message</h3>
+							<hr>
+							<form id="contact-form">
+								<div class="field">
+									<label class="label is-medium">Name</label>
+									<div class="control">
+										<input class="input is-medium" type="text" placeholder="Enter your name">
+									</div>
+								</div>
+								<div class="field">
+									<label class="label is-medium">Email</label>
+									<div class="control">
+										<input class="input is-medium" type="email" placeholder="Enter your email">
+									</div>
+								</div>
+								<div class="field">
+									<label class="label is-medium">Country</label>
+									<div class="control">
+										<div class="select is-medium is-fullwidth">
+											<select name="country" id="countryDropdown">
+												<option value="" selected="true" disabled>Select a country</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="field">
+									<label class="label is-medium">Message</label>
+									<div class="control">
+										<textarea class="textarea is-medium" placeholder="Enter your message"></textarea>
+									</div>
+								</div>
+								<div class="field">
+									<div class="control">
+										<button type="submit" class="button is-primary is-large">Send messsage</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Main Content End -->
+		<footer class="footer">
+			<div class="container">
+				<div id="footer-nav">
+					<div class="columns">
+						<div class="column">
+							<p class="title">Share the Knowledge</p>
+							<p>Enjoying your language journey with Befluent Swahili? If you know someone who could benefit from our Swahili courses, help them embark on the same enriching experience.</p>
+						</div>
+						<div class="column is-offset-1">
+							<p class="title">Swahili Courses</p>
+							<ul>
+								<li><a href="foundations-of-swahili.html">Foundations of Swahili</a></li>
+								<li><a href="practical-conversations.html">Practical Conversations</a></li>
+								<li><a href="cultural-insights.html">Cultural Insights</a></li>
+								<li><a href="advanced-vocabulary.html">Advanced Vocabulary</a></li>
+								<li><a href="fluency-exercises.html">Fluency Excercises</a></li>
+								<li><a href="real-world-scenarios.html">Real-world Scenarios</a></li>
+							</ul>
+						</div>
+						<div class="column">
+							<p class="title">Contact Us</p>
+							<ul>
+								<li>
+									<div class="icon-text">
+										<span class="icon has-text-primary">
+											<i class="fas fa-envelope"></i>
+										</span>
+										<a href="mailto:habari@befluentswahili.com">habari@befluentswahili.com</a>
+									</div>
+								</li>
+								<li>
+									<div class="icon-text">
+										<div class="icon has-text-primary">
+											<i class="fas fa-phone"></i>
+										</div>
+										<a href="tel:+254704573338">+254 704 573338</a>
+									</div>
+								</li>
+								<li>
+									<div class="icon-text">
+										<span class="icon has-text-primary">
+											<i class="fas fa-map-marker-alt"></i>
+										</span>
+										<p>Nairobi, KENYA (GMT +3)</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="copyright" class="mt-6">
+					<p>Copyright &copy 2024 Befluent Swahili | <a href="privacy-policy.html">Privacy Policy</a></p>
+				</div>
+			</div>
+		</footer>
+		<script>
+			// Fetch the list of countries from REST Countries API
+			fetch("https://restcountries.com/v3.1/all")
+				.then(response => response.json())
+				.then(data => {
+					// Extract country names from the response data
+					var countries = data.map(country => country.name.common);
+					
+					// Sort the countries alphabetically
+					countries.sort();
+
+					// Get the dropdown element
+					var dropdown = document.getElementById("countryDropdown");
+
+					// Populate the dropdown with countries
+					countries.forEach(function(country) {
+						var option = document.createElement("option");
+						option.text = country;
+						option.value = country;
+						dropdown.appendChild(option);
+					});
+				})
+				.catch(error => console.log("Error fetching countries data:", error));
+		</script>
+		<script src="assets/js/scripts.js"></script>
+	</body>
+</html>
