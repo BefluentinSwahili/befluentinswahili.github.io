@@ -1,14 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-/*Custom Styles*/
+/*Custom Styles
+ * primary #ad7fa8 
+ * secondary #8ae234 */
 
 body, button, input, optgroup, select, textarea {
-  font-family: "Roboto", sans-serif;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 .hero {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../img/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('../img/header-bg.jpg') center center no-repeat;
+	background-size: cover;
+}
+.ex-header {
+	background: url('../img/exheader-bg.jpg') center center no-repeat, url('../img/exheader-bg.svg') center center no-repeat;
 	background-size: cover;
 }
 .hero .content {
@@ -23,7 +30,13 @@ body, button, input, optgroup, select, textarea {
   margin: 0 auto;
   padding-bottom: 3rem;
 }
-.icon-text {
+span.icon-text {
   flex-wrap: nowrap;
 }
-
+#blog-grid .card-content {
+  min-height: 22rem;
+}
+.button.is-primary {
+  background: #ad7fa8;
+  color: #fff;
+}
